@@ -1,0 +1,78 @@
+#slide-up {
+  height: 20%;
+  width: 10%;
+  display: inline-block;
+  background: green;
+}
+#slide-up.go-add,
+#slide-up.go-remove {
+  transition: height 300ms;
+}
+
+#slide-up.go-add-active,
+#slide-up.go {
+  height: 5%;
+}
+
+#slide-down {
+  height: 20%;
+  width: 10%;
+  display: inline-block;
+  background: grey;
+  margin-top: 20px;
+}
+#slide-down.go-add,
+#slide-down.go-remove {
+  transition: height 300ms;
+}
+
+#slide-down.go-add-active,
+#slide-down.go {
+  height: 35%;
+}
+
+#slide-right {
+  height: 100%;
+  width: 300px;
+  background: orange;
+  left: -150px;
+  position: absolute;
+}
+
+#slide-right.go-add,
+#slide-right.go-remove {
+  transition: left 300ms linear;
+}
+
+#slide-right.go-add-active,
+#slide-right.go {
+  left: 0px;
+}
+
+#slide-left {
+  height: 100%;
+  width: 300px;
+  background: red;
+  right: -150px;
+  position: absolute;
+}
+
+#slide-left.go-add,
+#slide-left.go-remove {
+  transition: right 300ms linear;
+}
+
+#slide-left.go-add-active,
+#slide-left.go {
+  right: 0px;
+}
+
+/*#page-wrapper.go-add #sidebar-wrapper,
+#page-wrapper.go-remove #sidebar-wrapper {
+  transition: left: 350ms linear;
+}
+
+#page-wrapper.go-add-active #sidebar-wrapper,
+#page-wrapper.go #sidebar-wrapper {
+  left: 150px;
+}*/

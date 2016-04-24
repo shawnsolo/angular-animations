@@ -1,0 +1,25 @@
+<html ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+  <div id="slide-right" ng-class="{'go': toggle1}" ng-click="toggle1=!toggle1"></div>
+  <div id="slide-left" ng-class="{'go': toggle2}" ng-click="toggle2=!toggle2"></div>
+  <div style="text-align:center">
+    <div>
+      <div id="slide-up" ng-class="{'go': toggle3}" ng-click="toggle3=!toggle3"></div>
+    </div>
+    <div>
+      <div id="slide-down" ng-class="{'go': toggle4}" ng-click="toggle4=!toggle4"></div>
+    </div>
+  </div>
+</body>
+</html>
