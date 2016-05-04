@@ -66,13 +66,3 @@
 #slide-left.go {
   right: 0px;
 }
-
-/*#page-wrapper.go-add #sidebar-wrapper,
-#page-wrapper.go-remove #sidebar-wrapper {
-  transition: left: 350ms linear;
-}
-
-#page-wrapper.go-add-active #sidebar-wrapper,
-#page-wrapper.go #sidebar-wrapper {
-  left: 150px;
-}*/
